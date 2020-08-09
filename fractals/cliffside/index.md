@@ -29,7 +29,7 @@ consumables: [78978]
 
 Kill the Cultists but take the _Cultist Hammer_ before finishing the last one to get a hammer charge.  
 Take the portal to above (...or walk) and destroy the two _Ankle Seals_ using hammer `Skill 4`. Both seals have to get hit two times, do not finish mobs unless you need a charge.  
-Use `/gg` afterwards and stay dead until the <Specialization name="elementalist"/>, <Specialization name="guardian"/>, <Specialization name="thief"/>  reaches the Chest Seal.
+Use `/gg` afterwards and stay dead until the <Specialization name="elementalist"/>, <Specialization name="guardian"/>, <Specialization name="thief"/> reaches the Chest Seal.
 </GridItem>
 
 <GridItem sm="4">
@@ -46,20 +46,17 @@ At the start, use <Item id="8764"/> and <Item id="8801"/> for <Effect name="stea
 After the <Specialization name="Renegade"/> or someone teleported the party up, the <Specialization name="elementalist"/> waits at the gate for the others to finish the two seals, then rush upstairs.   
         Keep walking until you reach the last wooden board, then `/gg` as well.
 
-
 <Video title="Guardian (same of ele) skip (to chest)" timestamp="129" youtube="MmJTsOhdQeo"/>
 </Tab>
 <Tab specialization="Guardian">
 After the <Specialization name="Renegade"/> or someone teleported the party up, the <Specialization name="elementalist"/> waits at the gate for the others to finish the two seals, then rush upstairs.   
         Keep walking until you reach the last wooden board, then `/gg` as well.
 
-
 <Video title="Guardian skip (to chest)" timestamp="129" youtube="MmJTsOhdQeo"/> 
 </Tab>
 <Tab specialization="Thief">
 After the <Specialization name="Renegade"/> or someone teleported the party up, the <Specialization name="elementalist"/> waits at the gate for the others to finish the two seals, then rush upstairs.   
         Keep walking until you reach the last wooden board, then `/gg` as well.
-
 
 <Grid>
 <GridItem sm="6">
@@ -73,8 +70,6 @@ After the <Specialization name="Renegade"/> or someone teleported the party up, 
 </Tabs>
 
 ---
-
-
 
 <Grid>
 <GridItem sm="6">
@@ -129,8 +124,6 @@ Again, <Skill id="12638"/> on offhand Axe helps pulling the Cultists to you.
 </GridItem>
 </Grid>
 
-
-
 ---
 
 <Grid>
@@ -139,12 +132,11 @@ Again, <Skill id="12638"/> on offhand Axe helps pulling the Cultists to you.
   
 Do not resurrect yourself yet, wait for the  <Specialization name="revenant"/>, <Specialization name="elementalist"/>, <Specialization name="guardian"/> or <Specialization name="thief"/> to finish his portal and do `/gg` himself again or you will be stuck with a useless person for the entire end fight.
 
-After the whole party `/gg`'ed, resurrect yourself and place <Item id="78978"/> at the revival position.    
-    Blink up to the Arch Diviner, open the portal and **walk away from it** before doing `/gg` again to reset your cooldowns. If you kill yourself on the portal it bugs so watch it!    
+After the whole party `/gg`'ed, resurrect yourself and place <Item id="78978"/> at the revival position.  
+ Blink up to the Arch Diviner, open the portal and **walk away from it** before doing `/gg` again to reset your cooldowns. If you kill yourself on the portal it bugs so watch it!
 
 Now the whole party can resurrect and use the portal, type `go` in chat to indicate that. Before taking the portal on your own, switch your skills and traits back. This takes some timing to get right.
 </GridItem>
-
 
 <GridItem sm="12">
 <Tabs>
@@ -162,7 +154,6 @@ Now the whole party can resurrect and use the portal, type `go` in chat to indic
 </Tab>
 </Tabs>
 </GridItem>
-
 
 <GridItem sm="6">
 ## Arch Diviner <Item id="8881" disableText/><Item id="24678" disableText/>

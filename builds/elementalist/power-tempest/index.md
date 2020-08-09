@@ -9,7 +9,7 @@ benchmark: { large: { dps: 38069, by: 'Roul [SC]', youtube: '7tF8y7bUoQU' } }
 skills: [29719, 5734, 5624, 5516]
 traits: [1502, 1503, 1839]
 boons: ['Might', 'Fury', 'Swiftness', 'Protection', 'Vigor', 'Stability']
-conditions: ['Weakness', 'Vulnerability', 'Blind', 'Burning', 'Bleeding']
+conditions: ['Weakness', 'Vulnerability', 'Blinded', 'Burning', 'Bleeding']
 code: '[&DQYRPikvMBsXARcBQgHLAL4BTgFQAVABlwCZEgAAAAAAAAAAAAAAAAAAAAA=]'
 ---
 
@@ -28,65 +28,6 @@ The degree of difficulty is a little bit higher than the other <Specialization n
 The positioning and timing of skills matter a lot, a single mistake can make your DPS end up several thousand below other damage dealers.
 
 The build benefits heavily from slaying potions and sigils such as <Item id="50082"/> and <Item name="Impact" type="Sigil"/>.
-
-<Divider text="Equipment"/>
-
-<Tabs outlined>
-<Tab title="162 Agony Resistance">
-Check the [gear optimizer](http://old.discretize.eu) for more gear variants!
-<Grid>
-<GridItem sm="4">
-<Armor weight="Light" helmAffix="Assassin" helmRune="Scholar" shouldersAffix="Berserker" shouldersRune="Scholar" coatAffix="Berserker" coatRune="Scholar" glovesAffix="Berserker" glovesRune="Scholar" leggingsAffix="Assassin" leggingsRune="Scholar" bootsAffix="Berserker" bootsRune="Scholar"/>
-</GridItem>
-
-<GridItem sm="4">
-<Weapons weapon1MainType="Scepter" weapon1MainAffix="Berserker" weapon1MainSigil1="Impact" weapon1OffType="Warhorn" weapon1OffAffix="Berserker" weapon1OffSigil="Force"/>
-
-<Card title="Swap Weapons">
-* Scepter with <Item name="Night" type="Sigil"/>
-* Warhorn with <Item name="Serpent Slaying" type="Sigil"/>
-* Scepters with slaying sigils (see [Consumables Guide](/guides/consumables))
-* A dagger for <Skill name="Ring of Fire"/> (fire field for <Boon name="might"/>-stacking) and <Skill name="Ride the Lightning"/> (skipping)
-</Card>
-</GridItem>
-
-<GridItem sm="4">
-<BackAndTrinkets backItemAffix="Assassin" accessory1Affix="Assassin" accessory2Affix="Assassin" amuletAffix="Assassin" ring1Affix="Assassin" ring2Affix="Assassin"/>
-
-<Consumables food="Bowl of Sweet and Spicy Butternut Squash Soup" utility="Tin of Fruitcake" infusion="Mighty +9 Agony Infusion"/>
-</GridItem>
-</Grid>
-</Tab>
-
-<Tab title="222 Agony Resistance">
-<Grid>
-<GridItem sm="4">
-<Armor weight="Light" helmAffix="Berserker" helmRune="Scholar" shouldersAffix="Berserker" shouldersRune="Scholar" coatAffix="Berserker" coatRune="Scholar" glovesAffix="Berserker" glovesRune="Scholar" leggingsAffix="Assassin" leggingsRune="Scholar" bootsAffix="Berserker" bootsRune="Scholar"/>
-</GridItem>
-
-<GridItem sm="4">
-<Weapons weapon1MainType="Scepter" weapon1MainAffix="Berserker" weapon1MainSigil1="Impact" weapon1OffType="Warhorn" weapon1OffAffix="Berserker" weapon1OffSigil="Force"/>
-
-<Card title="Swap Weapons">
-* Scepter with <Item name="Night" type="Sigil"/>
-* Warhorn with <Item name="Serpent Slaying" type="Sigil"/>
-* Scepters with slaying sigils (see [Consumables Guide](/guides/consumables))
-* A dagger for <Skill name="Ring of Fire"/> (fire field for <Boon name="might"/>-stacking) and <Skill name="Ride the Lightning"/> (skipping)
-</Card>
-</GridItem>
-
-<GridItem sm="4">
-<BackAndTrinkets backItemAffix="Berserker" accessory1Affix="Assassin" accessory2Affix="Assassin" amuletAffix="Berserker" ring1Affix="Berserker" ring2Affix="Berserker"/>
-
-<Card title="Extra note">
-You need Fractal God, <Item id="86175"/> and 18  Mighty +9 Agony Infusion !
-</Card>
-
-<Consumables food="Bowl of Sweet and Spicy Butternut Squash Soup" utility="Tin of Fruitcake" infusion="Mighty +9 Agony Infusion"/>
-</GridItem>
-</Grid>
-</Tab>
-</Tabs>
 
 <Divider text="Build"/>
 
@@ -130,9 +71,9 @@ You need Fractal God, <Item id="86175"/> and 18  Mighty +9 Agony Infusion !
 | -- | -- |
 | <Skill name="Shocking Aura" size="big" disableText/> | 100 with <Control name="stun"/> |
 | <Skill name="Cyclone" size="big" disableText/> | 150 with <Control name="pull"/> |
-| <Skill name="Blinding Flash" size="big" disableText/> | 20 / s with <Condition name="blind"/> |
+| <Skill name="Blinding Flash" size="big" disableText/> | 20 / s with <Condition name="Blinded"/> |
 | <Skill name="Wind Blast" size="big" disableText/> | 232 with <Control name="launch"/> |
-| <Skill name="Dust Storm" size="big" disableText/> | 20 / s with <Condition name="blind"/> |
+| <Skill name="Dust Storm" size="big" disableText/> | 20 / s with <Condition name="Blinded"/> |
 | <Skill name="Tidal Surge" size="big" disableText/> | 150 with <Control name="knockback"/> |
 </Card>
 </GridItem>

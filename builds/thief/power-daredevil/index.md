@@ -5,24 +5,23 @@ rating: 'T4'
 role: 'Damage'
 profession: 'Thief'
 specialization: 'Daredevil'
-benchmark:
-  { small: { dps: 35070, by: 'L E F T [dP]', youtube: 'UD7TaxND8vc' } }
+benchmark: { small: { dps: 35070, by: 'L E F T [dP]', youtube: 'UD7TaxND8vc' } }
 skills: [13132, 13014, 13044, 13065, 13025]
 traits: [2047]
-conditions: ['Vulnerability', 'Crippled', 'Blind', 'Weakness']
+conditions: ['Vulnerability', 'Crippled', 'Blinded', 'Weakness']
 effects: ['Stealth']
 code: '[&DQUcPSMbBzmUEoUALwEvATMBVwGwEjMBDgEOAQAAAAAAAAAAAAAAAAAAAAA=]'
 ---
-
 
 <Tabs>
 <Tab title="Build">
 <Specialization name="Daredevil" text="Power Daredevil"/> has great sustained DPS, great burst on stacked trash mobs, good single target burst, brings excellent crowd control and offers <Effect name="stealth"/>, which paired with top tier mobility thanks to <Skill id="13025"/>, <Skill id="13002"/> and <Skill id="13064"/> can enable fast skips in T4s. <Specialization name="daredevil"/> has a very simplistic rotation, which makes it fairly easy to play, but due to initiative and energy management, <Specialization name="daredevil"/>  becomes quite hard to master.
 
 In fractals <Specialization name="daredevil"/> falls behind other classes for several reasons:
-1. First reason is <Trait id="1268"/>, which forces <Specialization name="daredevil"/> to constantly attack from behind or flank, which in some scenarios is not possible. (Note: with latest balance patch, keen observer got buffed, and with at least 204 Agony Resistance <Specialization name="daredevil"/> no longer needs to flank). 
+
+1. First reason is <Trait id="1268"/>, which forces <Specialization name="daredevil"/> to constantly attack from behind or flank, which in some scenarios is not possible. (Note: with latest balance patch, keen observer got buffed, and with at least 204 Agony Resistance <Specialization name="daredevil"/> no longer needs to flank).
 2. Next reason is <Trait id="1257"/>, which depending on your group composition you may not receive as much of a damage bonus as you would in raids where 10 players put more condis to be on the boss.
-3. Because of <Trait id="2047"/>, you may be pushing your teammates on fractals with <Instability name="Social awkwardness"/> instability into deadly zones.
+3. Because of <Trait id="2047"/>, you may be pushing your teammates on fractals with <Instability name="Social Awkwardness"/> instability into deadly zones.
 
 The build benefits from slaying potions such as <Item id="50082"/> and <Item name="Impact" type="Sigil"/>.
 
@@ -55,7 +54,6 @@ With 204 Agony resistance <Specialization name="Daredevil"/> is critcapped even 
 
 </Tabs>
 
-
 <Divider text="Build"/>
 
 <Grid>
@@ -64,12 +62,12 @@ With 204 Agony resistance <Specialization name="Daredevil"/> is critcapped even 
 
 <Card title="Alternative traits">
 
-| | |
-| -- | -- |
-| <Trait id="1702" size="big" disableText/> | Critical Strikes trait. Heals you with % of damage dealt, useful if you cant stay alive.|
-| <Trait id="2023" size="big" disableText/> | Daredevil trait. Healing and condition cleanse on evade.  |
+|                                           |                                                                                          |
+| ----------------------------------------- | ---------------------------------------------------------------------------------------- |
+| <Trait id="1702" size="big" disableText/> | Critical Strikes trait. Heals you with % of damage dealt, useful if you cant stay alive. |
+| <Trait id="2023" size="big" disableText/> | Daredevil trait. Healing and condition cleanse on evade.                                 |
 
-If no one in your party can boonrip when the <Instability name="No Pain No Gain "/> instability is present you can swap Deadly Arts for the Trickery line with the following traits: 
+If no one in your party can boonrip when the <Instability name="No Pain, No Gain"/> instability is present you can swap Deadly Arts for the Trickery line with the following traits:
 <UnembossedTraits traits1="Trickery" traits1Id="44" traits1SelectedIds="1163,1277,1158"/>
 <Message>
 **Note: this is kind of a meme way to deal with the instability and there are better options!**
@@ -91,8 +89,6 @@ Heal skills:
 | <Skill id="13021" size="big" disableText/> | Additional mobility. |
 | <Skill id="30400" size="big" disableText/> | Good for skips where additional endurance is needed. |
 
-
-
 3rd utility skill:
 | | |
 | -- | -- |
@@ -102,9 +98,8 @@ Elite skills:
 | | |
 | -- | -- |
 | <Skill id="13085" size="big" disableText/> | Amazing cleave ability, may be useful on heavy trash fights or when reflects are needed.|
-| <Skill id="13082" size="big" disableText/> | Additional personal DPS.  |
+| <Skill id="13082" size="big" disableText/> | Additional personal DPS. |
 | <Skill id="13132" size="big" disableText/> | Amazing crowd control skill. 150 CC per party member on a relatively low coolddown. |
-
 
 </Card>
 
@@ -131,14 +126,14 @@ Elite skills:
 <Card title="Rotation">
 Precast:
 
-Blast might with <Skill id="13041"/>. Cast <Skill id="13037"/>,  <Skill id="13055"/>, <Skill id="13096"/> and <Skill id="13082"/>, take mistlock and swap to normal skills. Dodge 2 times, use <Skill id="13027"/> and dodge last time, right before fight starts.
+Blast might with <Skill id="13041"/>. Cast <Skill id="13037"/>, <Skill id="13055"/>, <Skill id="13096"/> and <Skill id="13082"/>, take mistlock and swap to normal skills. Dodge 2 times, use <Skill id="13027"/> and dodge last time, right before fight starts.
 
 Opening:
 
 1. <Skill id="29911"/> (Staff 2)
 2. <Skill id="13046"/> (**during** Staff 2)
 3. <Skill id="29911"/> (Staff 2)
-4. <Skill id="30868"/> 
+4. <Skill id="30868"/>
 5. <Skill id="29911"/> (Staff 2)
 6. <Skill id="30693"/>
 7. <Skill id="29911"/> 2x (Staff 2)
@@ -149,9 +144,9 @@ Opening:
 2. <Skill id="29911"/> (Staff 2)
 3. <Skill id="13046"/> (**during** Staff 2)
 4. <Skill id="29911"/> (Staff 2)
-5. <Skill id="30868"/> 
+5. <Skill id="30868"/>
 6. <Skill id="29911"/> (Staff 2)
-7. <Skill id="30693"/> 
+7. <Skill id="30693"/>
 8. <Skill id="29911"/> 2x (Staff 2)
 
 **Burst 2:** When you have _no Endurance_ **but have** <Skill id="55031"/> (F1)
@@ -192,15 +187,12 @@ You can also activate <Skill id="13046"/> to burst for the last few attacks of a
 
 Keep in mind you can precast skills like <Skill id="13037"/>, <Skill id="13082"/> or <Skill id="13132"/> and take the mistlock singularity to refresh their coolddown. For example: Precast <Skill id="13082"/>, take mistlock, cast <Skill id="13132"/>, and swap to <Skill id="13082"/> again.
 
-Although <Specialization name="daredevil"/> doesn't have access to  <Boon name="Superspeed"/> for <Item id="85244"/> or <Item id="49940"/>, it still can execute many skips for your party in T4s.
+Although <Specialization name="daredevil"/> doesn't have access to <Effect name="Superspeed"/> for <Item id="85244"/> or <Item id="49940"/>, it still can execute many skips for your party in T4s.
 
 <Video title="Thief Skips T4s" youtube="Alpgs_GaZV0"/>
 
-
 </Card>
 </GridItem>
-
-
 
 </Grid>
 </Tab>

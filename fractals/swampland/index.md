@@ -26,7 +26,6 @@ sigils: [{ id: 36053 }, { id: 24868 }]
 consumables: [78978]
 ---
 
-
 <Grid>
 <GridItem sm="8">
 ## Running the wisps  
@@ -126,7 +125,7 @@ Use <Specialization name="Tempest"/> for this fight and <Skill id="22572"/> for 
 
 <Tabs>
 <Tab specialization="Soulbeast">
-Take <Skill id="12489"/> for pulsing condition cleanse! Great way the clean the huge stacks of <Condition name="Poison"/> at every phase. You can also take <Skill name="Bear stance"/> with the trait <Trait name="Leader of the Pack"/> to give the whole party condition cleanse.
+Take <Skill id="12489"/> for pulsing condition cleanse! Great way the clean the huge stacks of <Condition name="Poisoned"/> at every phase. You can also take <Skill name="Bear stance"/> with the trait <Trait name="Leader of the Pack"/> to give the whole party condition cleanse.
 </Tab>
 </Tabs>
 
@@ -137,5 +136,3 @@ Take Greatsword and <Skill name="Blood Reckoning"/> here for cleave!
 </Tabs>
 </GridItem>
 </Grid>
-
-

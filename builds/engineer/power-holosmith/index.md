@@ -7,15 +7,14 @@ profession: 'Engineer'
 specialization: 'Holosmith'
 benchmark: { small: { dps: 38143, by: 'TJ [SC]', youtube: 'p6mZtHhu7GM' } }
 skills: [30815, 43739]
-conditions: ['Vulnerability', 'Blind', 'Crippled', 'Immobile']
+conditions: ['Vulnerability', 'Blinded', 'Crippled', 'Immobile']
 effects: ['Stealth']
 code: '[&DQMGOyYfOSsqDyoPowCGAIYAowBXFlcW8BWJAQAAAAAAAAAAAAAAAAAAAAA=]'
 ---
 
-The engineer build that currently fares best in fractals is the <Specialization text="Power Holosmith" name="holosmith"/>, offering a mix of high damage and a relatively good amount of crowd control and utility in form of <Condition name="vulnerability"/> and some <Condition name="Blind"/>, <Condition name="Crippled"/> and <Condition name="Immobile"/>.
+The engineer build that currently fares best in fractals is the <Specialization text="Power Holosmith" name="holosmith"/>, offering a mix of high damage and a relatively good amount of crowd control and utility in form of <Condition name="vulnerability"/> and some <Condition name="Blinded"/>, <Condition name="Crippled"/> and <Condition name="Immobile"/>.
 
 The build benefits from slaying potions such as <Item id="50082"/> and <Item name="Impact" type="Sigil"/>.
-
 
 <Tabs>
 <Tab title="Build">
