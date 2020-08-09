@@ -29,6 +29,65 @@ The positioning and timing of skills matter a lot, a single mistake can make you
 
 The build benefits heavily from slaying potions and sigils such as <Item id="50082"/> and <Item name="Impact" type="Sigil"/>.
 
+<Divider text="Equipment"/>
+
+<Tabs outlined>
+<Tab title="162 Agony Resistance">
+Check the [gear optimizer](http://old.discretize.eu) for more gear variants!
+<Grid>
+<GridItem sm="4">
+<Armor weight="Light" helmAffix="Assassin" helmRune="Scholar" shouldersAffix="Berserker" shouldersRune="Scholar" coatAffix="Berserker" coatRune="Scholar" glovesAffix="Berserker" glovesRune="Scholar" leggingsAffix="Assassin" leggingsRune="Scholar" bootsAffix="Berserker" bootsRune="Scholar"/>
+</GridItem>
+
+<GridItem sm="4">
+<Weapons weapon1MainType="Scepter" weapon1MainAffix="Berserker" weapon1MainSigil1="Impact" weapon1OffType="Warhorn" weapon1OffAffix="Berserker" weapon1OffSigil="Force"/>
+
+<Card title="Swap Weapons">
+* Scepter with <Item name="Night" type="Sigil"/>
+* Warhorn with <Item name="Serpent Slaying" type="Sigil"/>
+* Scepters with slaying sigils (see [Consumables Guide](/guides/consumables))
+* A dagger for <Skill name="Ring of Fire"/> (fire field for <Boon name="might"/>-stacking) and <Skill name="Ride the Lightning"/> (skipping)
+</Card>
+</GridItem>
+
+<GridItem sm="4">
+<BackAndTrinkets backItemAffix="Assassin" accessory1Affix="Assassin" accessory2Affix="Assassin" amuletAffix="Assassin" ring1Affix="Assassin" ring2Affix="Assassin"/>
+
+<Consumables food="Bowl of Sweet and Spicy Butternut Squash Soup" utility="Tin of Fruitcake" infusion="Mighty +9 Agony Infusion"/>
+</GridItem>
+</Grid>
+</Tab>
+
+<Tab title="222 Agony Resistance">
+<Grid>
+<GridItem sm="4">
+<Armor weight="Light" helmAffix="Berserker" helmRune="Scholar" shouldersAffix="Berserker" shouldersRune="Scholar" coatAffix="Berserker" coatRune="Scholar" glovesAffix="Berserker" glovesRune="Scholar" leggingsAffix="Assassin" leggingsRune="Scholar" bootsAffix="Berserker" bootsRune="Scholar"/>
+</GridItem>
+
+<GridItem sm="4">
+<Weapons weapon1MainType="Scepter" weapon1MainAffix="Berserker" weapon1MainSigil1="Impact" weapon1OffType="Warhorn" weapon1OffAffix="Berserker" weapon1OffSigil="Force"/>
+
+<Card title="Swap Weapons">
+* Scepter with <Item name="Night" type="Sigil"/>
+* Warhorn with <Item name="Serpent Slaying" type="Sigil"/>
+* Scepters with slaying sigils (see [Consumables Guide](/guides/consumables))
+* A dagger for <Skill name="Ring of Fire"/> (fire field for <Boon name="might"/>-stacking) and <Skill name="Ride the Lightning"/> (skipping)
+</Card>
+</GridItem>
+
+<GridItem sm="4">
+<BackAndTrinkets backItemAffix="Berserker" accessory1Affix="Assassin" accessory2Affix="Assassin" amuletAffix="Berserker" ring1Affix="Berserker" ring2Affix="Berserker"/>
+
+<Card title="Extra note">
+You need Fractal God, <Item id="86175"/> and 18  Mighty +9 Agony Infusion !
+</Card>
+
+<Consumables food="Bowl of Sweet and Spicy Butternut Squash Soup" utility="Tin of Fruitcake" infusion="Mighty +9 Agony Infusion"/>
+</GridItem>
+</Grid>
+</Tab>
+</Tabs>
+
 <Divider text="Build"/>
 
 <Grid>
